@@ -1,17 +1,13 @@
-#RAM-DESIGN
+# RAM-DESIGN
 
 **COMPANY:** CODTECH IT SOLUTIONS  
-
 **NAME:** Likhith Gowda H R  
-
 **INTERN ID:** CTISAR20
-
 **DOMAIN:** VLSI  
-
 **DURATION:** 4 Weeks  
-
 **MENTOR:** Neela Santosh  
 
+--
 
 📌 Project Overview
 
