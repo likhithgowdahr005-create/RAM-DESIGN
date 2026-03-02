@@ -81,7 +81,7 @@ Power, timing, area, and gate-level reports are available in the **Synthesis_Rep
 
 ## 📄 Project Documentation
 
-📘  **[RAM SIMULATION REPORT](Project_Report/RAM%20SIMULATION%20REPORT.pdf)**
+ **[RAM SIMULATION REPORT](Project_Report/RAM%20SIMULATION%20REPORT.pdf)**
 
 The report includes design methodology, simulation waveform analysis, RTL schematic, synthesis reports, and results.
 
