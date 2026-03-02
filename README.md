@@ -1,29 +1,27 @@
-# RAM-DESIGN
+SYNCHRONOUS RANDOM ACCESS MEMORY (RAM)
 
-**COMPANY:** CODTECH IT SOLUTIONS  
-**NAME:** Likhith Gowda H R  
-**INTERN ID:** CTISAR20
-**DOMAIN:** VLSI  
-**DURATION:** 4 Weeks  
-**MENTOR:** Neela Santosh  
-
---
+COMPANY: CODTECH IT SOLUTIONS
+NAME: Likhith Gowda H R
+INTERN ID: CTISAR20
+DOMAIN: VLSI
+DURATION: 4 Weeks
+MENTOR: Neela Santosh
 
 📌 Project Overview
 
-This project presents the design and simulation of a Synchronous Random Access Memory (RAM) using Verilog Hardware Description Language (HDL). RAM is an essential component of digital systems used for storing and retrieving data in processors and embedded systems.
+This project presents the design and simulation of a Synchronous Random Access Memory (RAM) using Verilog Hardware Description Language (HDL). RAM is an essential component of digital systems responsible for storing and retrieving data in processors, embedded systems, and communication devices.
 
-The implemented design performs memory read and write operations based on clock and write enable control signals. The design is verified using simulation waveforms and synthesized using Cadence Genus to evaluate hardware performance such as power consumption, timing performance, and area utilization.
+The implemented RAM performs memory read and write operations based on clock and write enable control signals. The design is verified using simulation and synthesized using Cadence Genus to evaluate hardware performance such as power consumption, timing performance, and area utilization.
 
 🎯 Objective
 
 Design a synchronous RAM using Verilog HDL
 
-Implement clock-based read and write operations
+Implement clock-based memory read and write operations
 
 Verify functionality using simulation waveform
 
-Perform synthesis and analyze power, timing, and area performance
+Perform synthesis and analyze hardware performance metrics
 
 ⚙️ Tools Used
 
@@ -40,23 +38,22 @@ Implements synchronous memory operations using clock, write enable, address, and
 
 🔹 Testbench (syncram_tb.v)
 
-Applies different input combinations to verify memory read and write operations and generates simulation waveforms.
+Applies different input combinations to verify RAM functionality and generates simulation waveforms.
 
 Source files are available in the Source_Code folder.
 
 🧠 RAM Operation
+Control Signal	Operation
+Write Enable = 1	Data is written into selected memory location
+Write Enable = 0	Stored data is read from memory
 
-Write Operation:
-When write enable is active and a clock edge occurs, input data is written into the selected memory location.
-
-Read Operation:
-When write enable is inactive, stored data from the selected address is retrieved and provided as output.
+Memory operations occur only at the positive edge of the clock signal.
 
 🖥 Simulation Output
 
 ![Waveform](Simulation_Output/waveform.png)
 
-The waveform verifies correct memory read and write operations based on clock and control signals.
+The waveform verifies correct memory read and write operations based on clock, address, and write enable signals.
 
 🔧 RTL Schematic
 
@@ -66,13 +63,13 @@ The RTL view shows the synthesized hardware structure of the synchronous RAM gen
 
 📊 Synthesis Reports
 
-Power, timing, area, and gate-level reports are available in the Synthesis_Report folder.
+Power, timing, area, and gate-level reports are available in the Synthesis_Reports folder.
 
 📄 Project Report
 
-📥 Download Full Report:
-RAM Simulation Report (PDF)
+[RAM Simulation Report (PDF)](Project_Report/RAMSimulationReport.pdf)
+
 
 ✅ Results
 
-Simulation confirms correct memory storage and retrieval operations. The synthesis analysis shows efficient hardware utilization with acceptable power consumption and timing performance. The design operates reliably under clock-controlled conditions.
+Simulation confirms correct memory storage and retrieval operations. Synthesis analysis shows efficient hardware utilization with acceptable power consumption and timing performance. The design operates reliably under clock-controlled conditions.
