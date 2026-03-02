@@ -51,15 +51,19 @@ When write enable is inactive, stored data from the selected address is retrieve
 
 🖥 Simulation Output
 
+![Waveform](Simulation_Output/waveform.png)
+
 The waveform verifies correct memory read and write operations based on clock and control signals.
 
 🔧 RTL Schematic
+
+![RTL](RTL_Design/rtl.png)
 
 The RTL view shows the synthesized hardware structure of the synchronous RAM generated from the Verilog design.
 
 📊 Synthesis Reports
 
-Power, timing, area, and gate-level reports are available in the Synthesis_Reports folder.
+Power, timing, area, and gate-level reports are available in the Synthesis_Report folder.
 
 📄 Project Report
 
